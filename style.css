@@ -1,0 +1,136 @@
+h1 {
+    color: #396158; 
+    font-family: 'Varela Round', sans-serif; 
+    text-decoration:bold;
+    position: relative;
+}
+h1:after {
+    content: '';
+
+    width: 13%;
+    position: absolute;
+    left: 19px;
+    bottom: -15px;
+
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+
+
+img{
+    border-color:white;
+    
+}
+.container {
+    height: 200px;
+    position: relative;
+   
+  }
+  
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+
+.textarea::placeholder{
+    
+    padding-right: 10px;
+    color:grey;
+    font-weight: bold;
+}
+.button{
+    border-radius: 8px;
+    text-align: center;
+    text-align: center;
+        font-size: 25px;
+       
+        
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        font-weight: 600;
+}
+.button-b{
+    background-color: #f8f8f8;
+    color:#4a4444;
+}
+
+.button-b:hover{
+    background-color:#adaaaa;
+}
+.button-n{
+    background-color: #69ebd3;
+    color:#4a4444;
+}
+.button-n:hover{
+    background-color:#47bfa9;
+}
+.button-m{
+    background-color: #396158;
+    color:white;
+}
+.button-m:hover{
+    background-color:#396159;
+}
+
+footer{
+    background-color: turquoise;
+    position:bottom;
+}
+li{
+    float:left;
+    border-right: 1px solid rgb(138, 134, 134);
+   
+    
+}
+li:last-child {
+    border-right: none;
+    
+  }
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d2d6d5;
+  
+}
+
+li a {
+    display: block;
+    color: rgb(124, 119, 119);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+.active {
+    background-color: #396159;
+    color:white;
+    font-weight: bold;
+}
+canvas{
+   height:150px;
+   
+
+   border:1px solid lightgrey;
+   position: relative;
+}
+#img{
+    float: left;
+}
+#canvas{
+    float: right;
+    padding-right: 300px;
+}
+.btn{
+    border-color: white;
+}
